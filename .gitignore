@@ -1,2 +1,37 @@
 *.pkl
+
+# Python cache and local tooling
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+
+# IDE and editor files
+.idea/
+*.iml
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Training / experiment outputs
+single_models/
+candidate_model/
+expand_model/
+
+# Local scratch files
 test*
+
+doc/
