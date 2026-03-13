@@ -12,10 +12,6 @@ __pycache__/
 # Local environments
 .venv/
 venv/
-env/
-ENV/
-.env
-.env.*
 
 # IDE and editor files
 .idea/
